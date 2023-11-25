@@ -20,12 +20,12 @@ function WorkContentPage({ image, path, alt, description }) {
       <img src={image} style={imgStyle} alt={alt} />
       <div className="work-img-text">
         <h4>{description}</h4>
-        {/* <Link to={path}>
+        <Link to={path}>
           <button className="learn-more-btn">Learn More</button>
-        </Link> */}
-        <a href={path} target="_self">
+        </Link>
+        {/* <a href={path} target="_self">
           <button className="learn-more-btn">Learn More</button>
-        </a>
+        </a> */}
       </div>
 
       <div className="work-desc">{description}</div>
