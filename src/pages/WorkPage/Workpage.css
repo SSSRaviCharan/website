@@ -1,0 +1,71 @@
+.slider {
+  margin-top: 10vh;
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+  color: var(--color7);
+}
+
+.swiper-pagination-bullet {
+  color: var(--color7);
+}
+
+.slider-img {
+  width: 100vw;
+  height: 30vh;
+  object-fit: scale-down;
+}
+
+.site-description {
+  padding-top: 5vh;
+}
+
+.site-description h1 {
+  text-align: center;
+  color: var(--color7);
+  margin-bottom: 10vh;
+}
+
+.site-description h1::after {
+  display: block;
+  content: "";
+  position: absolute;
+  height: 10px;
+  width: 80vw;
+  left: 10vw;
+  margin-top: 1rem;
+  background-color: var(--color5);
+}
+
+.project-description {
+  padding: 0 10vw;
+}
+
+.project-description h2 {
+  color: var(--color5);
+}
+
+.paragraph {
+  margin: 0 auto;
+  max-width: 800px;
+  font-size: 1.5rem;
+  color: var(--color7);
+}
+
+.paragraph p {
+  padding: 0 1rem;
+}
+
+.paragraph .para {
+  text-align: justify;
+}
+
+.paragraph a {
+  text-decoration: underline;
+  color: var(--color7);
+}
+
+.built-date {
+  text-align: center;
+}

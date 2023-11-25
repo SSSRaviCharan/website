@@ -1,0 +1,148 @@
+#welcome-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  color: var(--color7);
+  height: calc(100vh + 100px);
+  min-height: 968px;
+}
+
+#picture-frame-wrap {
+  filter: drop-shadow(0px 0px 20px #988941);
+  height: calc(50% - 200px);
+  width: 100%;
+}
+
+#picture-frame {
+  position: relative;
+  width: 100%;
+  background-color: var(--color2);
+  clip-path: ellipse(100% 100% at 50% 0%);
+  height: 100%;
+}
+
+#picture-frame img {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  border-radius: 50%;
+}
+
+#welcome-text {
+  position: relative;
+  margin-top: 20px;
+  font-weight: bold;
+  color: var(--color7);
+}
+
+#welcome-text p {
+  margin-top: 0.3rem;
+  margin-bottom: 0;
+}
+
+#welcome-info {
+  position: relative;
+  color: var(--color7);
+  font-weight: bold;
+}
+
+.vertical-line {
+  left: 50%;
+  border-left: 1px solid var(--color7);
+  /* bottom: -500px; */
+  height: 350px;
+}
+
+.scroll-text {
+  writing-mode: vertical-rl;
+  color: var(--color7);
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  #picture-frame img {
+    width: 10rem;
+    height: 10rem;
+    bottom: 0.5rem;
+  }
+
+  #welcome-text {
+    font-size: 2rem;
+  }
+
+  #welcome-text p {
+    margin-top: 0.3rem;
+  }
+
+  #welcome-info {
+    font-size: 1.5rem;
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  #picture-frame img {
+    width: 12rem;
+    height: 12rem;
+    bottom: 1rem;
+  }
+
+  #welcome-text {
+    font-size: 2.5rem;
+  }
+
+  #welcome-text p {
+    margin-top: 0.3rem;
+  }
+
+  #welcome-info {
+    font-size: 1.75rem;
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  #welcome-text {
+    font-size: 3rem;
+  }
+
+  #welcome-text p {
+    margin-top: 0.3rem;
+  }
+
+  #welcome-info {
+    font-size: 2rem;
+  }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  #welcome-text {
+    font-size: 3rem;
+  }
+
+  #welcome-text p {
+    margin-top: 0.3rem;
+  }
+
+  #welcome-info {
+    font-size: 2rem;
+  }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  #welcome-text {
+    font-size: 3rem;
+  }
+
+  #welcome-text p {
+    margin-top: 0.3rem;
+  }
+
+  #welcome-info {
+    font-size: 2rem;
+  }
+}

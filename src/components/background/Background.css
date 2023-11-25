@@ -1,0 +1,82 @@
+#background {
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  width: 100vw;
+  height: 160%;
+  top: -60%;
+}
+
+.icon-row {
+  position: relative;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  white-space: nowrap;
+  margin: 20px 0;
+  transform: rotate(-30deg);
+}
+
+.icon-row div:nth-child(odd) {
+  animation: animate 500s linear infinite;
+  animation-delay: -500s;
+}
+
+.icon-row div:nth-child(even) {
+  animation: animate2 500s linear infinite;
+  animation-delay: -250s;
+}
+@keyframes animate {
+  0% {
+    transform: translateX(50%);
+  }
+  100% {
+    transform: translateX(-150%);
+  }
+}
+@keyframes animate2 {
+  0% {
+    transform: translateX(-50%);
+  }
+  100% {
+    transform: translateX(-250%);
+  }
+}
+
+.icon-row:nth-child(even) div {
+  animation: animate3 500s linear infinite;
+  animation-delay: -500s;
+}
+
+.icon-row:nth-child(even) div:nth-child(even) {
+  animation: animate4 500s linear infinite;
+  animation-delay: -250s;
+}
+@keyframes animate3 {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(100%);
+  }
+}
+@keyframes animate4 {
+  0% {
+    transform: translateX(-200%);
+  }
+  100% {
+    transform: translateX(0%);
+  }
+}
+
+.icon {
+  transition: 0.5s;
+  padding: 3rem 1rem;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.icon:hover {
+  fill: var(--color1);
+  filter: drop-shadow(0 0 8px var(--color1));
+}

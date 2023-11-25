@@ -1,0 +1,134 @@
+#contact {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  height: 100vh;
+  text-align: center;
+  color: var(--color7);
+  margin-top: 100px;
+}
+
+#contact h1 {
+  font-size: var(--title-font-size);
+}
+
+.contact-form {
+  width: 100%;
+  top: 50%;
+  left: 50%;
+}
+
+.contact-form h1 {
+  margin-bottom: 3rem;
+}
+
+.contact-form h1::after {
+  display: block;
+  content: "";
+  position: absolute;
+  height: 10px;
+  background-color: var(--color5);
+}
+
+.contact-form input {
+  margin: 1rem 0;
+  padding: 1rem;
+  width: 70vw;
+  max-width: 600px;
+}
+
+.contact-form textarea {
+  width: 70vw;
+  max-width: 600px;
+  margin: 1rem 0;
+  padding: 1rem;
+}
+
+.contact-form input[type="submit"] {
+  width: 40vw;
+  max-width: 300px;
+  background-color: var(--color5);
+  border: none;
+  color: var(--color7);
+  transition: all ease-out 0.5s;
+}
+
+.contact-form input[type="submit"]:hover {
+  width: 40vw;
+  color: var(--color2);
+  background-color: var(--color1);
+  border: none;
+}
+
+#resume-div {
+  display: block;
+  font-size: 2rem;
+  text-align: center;
+  margin-top: 3rem;
+  color: var(--color1);
+}
+
+#resume-div a {
+  text-decoration: none;
+  color: var(--color1);
+}
+
+#resume-div svg {
+  margin-left: 0.2rem;
+  fill: var(--color1);
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .contact-form h1::after {
+    height: 10px;
+    right: 10vw;
+    left: 10vw;
+    margin-top: 1rem;
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  .contact-form h1::after {
+    height: 10px;
+    right: 10vw;
+    left: 10vw;
+    margin-top: 1rem;
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  .contact-form h1::after {
+    height: 10px;
+    right: 10vw;
+    left: 10vw;
+    margin-top: 1rem;
+  }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  .contact-form h1::after {
+    height: 10px;
+    right: 10vw;
+    left: 10vw;
+    margin-top: 1rem;
+  }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  .contact-form h1::after {
+    height: 10px;
+    width: 1200px;
+    right: 5vw;
+    left: 5vw;
+    margin-top: 1rem;
+    margin-left: 45vw;
+    transform: translateX(-50%);
+  }
+}
