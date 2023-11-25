@@ -12,7 +12,7 @@ function WorkContentPage() {
       <div className="main-col">
         <WorkContentBox
           image={comingsoon}
-          path="/website/fsproj"
+          path="/website/fsproject"
           alt="application"
           description="Fitness Tracker"
         />

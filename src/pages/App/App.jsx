@@ -13,7 +13,7 @@ function App() {
       <Routes>
         <Route path="/website" element={<Homepage />} />
         <Route path="/website/ffrobot" element={<FFRobot />} />
-        <Route path="/website/fsproj" element={<FSProject />} />
+        <Route path="/website/fsproject" element={<FSProject />} />
         <Route path="/*" element={<Navigate replace to="/website" />} />
       </Routes>
       <Footer />
