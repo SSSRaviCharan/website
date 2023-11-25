@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/website/static/css/main.2317ec7d.css",
-    "main.js": "/website/static/js/main.9dcb2f20.js",
+    "main.js": "/website/static/js/main.9c3fd7d6.js",
     "static/media/fitsync_dash.png": "/website/static/media/fitsync_dash.2282ba79b749c9872177.png",
     "static/media/fitsync_workout.png": "/website/static/media/fitsync_workout.3eba5694d3188698fcde.png",
     "static/media/fitsync_meal.png": "/website/static/media/fitsync_meal.6ad6c0db6fe3dd35f521.png",
@@ -14,10 +14,10 @@
     "static/media/fitsync_logo3.png": "/website/static/media/fitsync_logo3.2caca952e1329fb949ff.png",
     "index.html": "/website/index.html",
     "main.2317ec7d.css.map": "/website/static/css/main.2317ec7d.css.map",
-    "main.9dcb2f20.js.map": "/website/static/js/main.9dcb2f20.js.map"
+    "main.9c3fd7d6.js.map": "/website/static/js/main.9c3fd7d6.js.map"
   },
   "entrypoints": [
     "static/css/main.2317ec7d.css",
-    "static/js/main.9dcb2f20.js"
+    "static/js/main.9c3fd7d6.js"
   ]
 }
