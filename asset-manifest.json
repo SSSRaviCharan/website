@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/website/static/css/main.2317ec7d.css",
+    "main.js": "/website/static/js/main.c6d28c97.js",
+    "static/media/fitsync_dash.png": "/website/static/media/fitsync_dash.2282ba79b749c9872177.png",
+    "static/media/fitsync_workout.png": "/website/static/media/fitsync_workout.3eba5694d3188698fcde.png",
+    "static/media/fitsync_meal.png": "/website/static/media/fitsync_meal.6ad6c0db6fe3dd35f521.png",
+    "static/media/fitsync_bodyfat.png": "/website/static/media/fitsync_bodyfat.a45677ec6053c29d1dbb.png",
+    "static/media/fitsync_idealweight.png": "/website/static/media/fitsync_idealweight.46c6e5d7d487554bd127.png",
+    "static/media/fitsync_bmi.png": "/website/static/media/fitsync_bmi.abb5c175486cf6a32cc4.png",
+    "static/media/ffrobot1.jpg": "/website/static/media/ffrobot1.9c6f2ca73041730a1e2d.jpg",
+    "static/media/ffrobot.jpg": "/website/static/media/ffrobot.fa925df90d1aa1a442a9.jpg",
+    "static/media/pfp.jpeg": "/website/static/media/pfp.1f2246738c374a77dc4e.jpeg",
+    "static/media/fitsync_logo3.png": "/website/static/media/fitsync_logo3.2caca952e1329fb949ff.png",
+    "index.html": "/website/index.html",
+    "main.2317ec7d.css.map": "/website/static/css/main.2317ec7d.css.map",
+    "main.c6d28c97.js.map": "/website/static/js/main.c6d28c97.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2317ec7d.css",
+    "static/js/main.c6d28c97.js"
+  ]
+}
