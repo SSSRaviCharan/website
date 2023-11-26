@@ -28,7 +28,10 @@ function FSP() {
           companion, fostering healthier lifestyles.
         </p>
         <p>
-          <a href="" target="">
+          <a
+            href="https://github.com/SSSRaviCharan/FitnessTracker_Application"
+            target="_blank"
+          >
             Visit Github
           </a>
         </p>
